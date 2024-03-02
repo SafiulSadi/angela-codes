@@ -1,0 +1,21 @@
+h1{
+  
+  display: block;
+  /* visibility: hidden; */
+}
+button{
+  display: block;
+  
+}
+.dog{
+  top: 100px;
+  position: sticky;
+  right: 50px;
+
+}
+.dog:hover{
+  border: solid red;
+}
+body{
+  /* background: url("https://raw.githubusercontent.com/appbrewery/webdev/main/puppy.gif"); */
+}
