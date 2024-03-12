@@ -1,0 +1,19 @@
+/* Write your code here: */
+h1, h2{
+  color: blueviolet;
+}
+/* the > to use a child selector. parent > child */
+.box > p{
+  color: firebrick;
+}
+.box li{
+  color: blue;
+}
+/* chaining selector. adding the two selectors side by side without any space between them. */
+li.done{
+  color: seagreen;
+}
+/* combining all the selectors that we have learned so far is also valid. this makes it more specific at times. */
+ul p.done{
+  font-size: 0.5rem;
+}
